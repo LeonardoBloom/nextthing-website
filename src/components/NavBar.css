@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 74px;
+    z-index: 999;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: transparent !important;
+    top:0;
+    gap: 200px;
+    transition: .1s ease-in;
+    /* REMEMBER TO CHANGE GAP FOR MOBILE */
+}
+    .nav-scroll {
+        background-color: #ffffff !important;
+        box-shadow: 0px 8px 10px -10px rgba(0, 0, 0, 0.75);
+        transition: 0.2s ease-in;
+    }
+    .nav-button-scroll {
+        color: #0c63ac !important;
+        font-weight: 400;
+    }
+    
+.nav-logo a img {
+    margin: 7px auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-links { 
+    margin:  auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+    }
+    .nav-buttons { 
+    display: table-cell; 
+    position: relative; 
+    padding-top: 15px;
+    }
+    .nav-buttons a, .nav-link-item a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 0 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    }
+    .nav-link-item a {
+        padding: 15px 15px;
+    }
+    .nav-buttons a:after, .nav-link-item a:after  {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    }
+    .nav-buttons .nav-button-scroll:after  {    
+    
+    background: #0c63ac ;
+    
+    }
+    a:hover:after { 
+    width: 100%; 
+    left: 0; 
+    }
+    .nav-link-item {
+        font-size: 12px;
+        
+    }
+
+
+.dropdown li {
+    
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    
+}
+
+.dropdown {
+    width: 300px;
+    background-color: #0c63ac;
+    position: absolute ;
+    left:9.5px;
+    z-index: 999;
+    padding-bottom: 20px;
+    list-style: none;
+    padding-inline-start: 0;
+    opacity: 0;
+    display: none;
+    transition: .2s ease;
+}
+
+li:hover ul.dropdown {
+    display: block;
+    opacity: 1;
+    transition: 0.2s ease;
+}

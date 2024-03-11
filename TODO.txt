@@ -1,0 +1,22 @@
+1. Navbar
+    - DONE: transparent but solid on scroll
+    - DONE: Optimize items in navbar (Home, Services, About, Contact) [maybe]
+    - DONE (I think)
+
+2. COLORS
+    - Follow colors guidelines
+    - Dark Blue #156bb3
+
+3. Add Carousel with bottom bullets that highlight "blue" on active [maybe]
+
+4. DONE Add Services:
+    - Icon
+    - Title
+    - Description
+    - Link
+
+5. Add Form Box with:
+    - Name
+    - Phone
+    - Email
+    - MessageBox
