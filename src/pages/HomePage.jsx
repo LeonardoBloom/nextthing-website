@@ -4,6 +4,7 @@ import hero from '../img/hero.webp';
 import ContactForm from '../components/ContactForm';
 import ScrollHandler from '../handlers/ScrollHandler';
 import hook_img from '../img/hook_img.png';
+import heroLogo from '../img/logo1.png';
 
 
 
@@ -22,6 +23,7 @@ function HomePage() {
                     
                     <span style={{fontSize: '20px'}}>Technology made simple</span>
                     </h1>
+                    {/* <img src={heroLogo} width={500} ></img> */}
                 </div>
                 <img className='bg-img' src={hero} alt='hero-background'></img>
             </div>

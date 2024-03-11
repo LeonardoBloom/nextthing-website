@@ -43,5 +43,7 @@
     }
         .contact-form-box button:hover {
             cursor: pointer;
+            background-color: #0c63ac;
+            transition: 0.2s ease  ;
         }
 
