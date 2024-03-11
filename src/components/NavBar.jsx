@@ -30,9 +30,9 @@ const NavBar = ({isScrolled}) => {
                             <li className="nav-link-item"><a href="#">Gestão de Projectos</a></li>
                         </ul>
                     </li>
-                    <li className='nav-buttons'><Link to="/Blog" className={`${navButtonScroll}`} >Blog</Link></li>
-                    <li className='nav-buttons'><Link to="/About" className={`${navButtonScroll}`} >Sobre Nós</Link></li>
-                    <li className='nav-buttons'><Link to="/Contact" className={`${navButtonScroll}`} href="#">Contacto</Link></li>
+                    <li className='nav-buttons'><Link to="/nextthing-website/Blog" className={`${navButtonScroll}`} >Blog</Link></li>
+                    <li className='nav-buttons'><Link to="/nextthing-website/About" className={`${navButtonScroll}`} >Sobre Nós</Link></li>
+                    <li className='nav-buttons'><Link to="/nextthing-website/Contact" className={`${navButtonScroll}`} href="#">Contacto</Link></li>
                 </ul>
 
             </div>
