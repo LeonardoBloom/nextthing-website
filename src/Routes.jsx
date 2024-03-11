@@ -13,11 +13,11 @@ export const PageRoutes = () => {
             
             <Routes>
                 {/* PRIMARY PAGES */}
-                <Route exact path="/" element={<Navigate to="/Home" replace/>} />
-                <Route path="/Home" element={<HomePage />} />
-                <Route path='/Blog' element={<BlogPage />} />
-                <Route path='/About' element={<AboutPage />} />
-                <Route path='/Contact' element={<ContactPage />} />
+                <Route exact path="/" element={<Navigate to="nextthing-website/Home" replace/>} />
+                <Route path="nextthing-website/Home" element={<HomePage />} />
+                <Route path='nextthing-website/Blog' element={<BlogPage />} />
+                <Route path='nextthing-website/About' element={<AboutPage />} />
+                <Route path='nextthing-website/Contact' element={<ContactPage />} />
 
                 {/* SERVICES PAGES */}
             </Routes>
