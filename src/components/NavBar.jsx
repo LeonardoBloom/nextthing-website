@@ -13,7 +13,7 @@ const NavBar = ({isScrolled}) => {
         <div className={`navbar ${navScroll}`}>
 
             <div className="nav-logo">
-                <Link to="/Home"><img src={logo1} width="170"/></Link>
+                <Link to="/nextthing-website/Home"><img src={logo1} width="170"/></Link>
             </div>
 
             <div className='navbar-buttons'>
