@@ -1,14 +1,19 @@
 import './HomePage.css';
 import NavBar from '../components/NavBar'; // instead imported through scrollHandler
-import hero from '../img/hero.webp';
+import heroBanner from '../img/hero.webp';
 import ContactForm from '../components/ContactForm';
 import ScrollHandler from '../handlers/ScrollHandler';
 import hook_img from '../img/hook_img.png';
 import heroLogo from '../img/logo1.png';
+import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+import LinkScrollHandler from '../handlers/LinkScrollHandler';
 
 
 
 function HomePage() {
+
+    LinkScrollHandler();
 
     return (
         <>
@@ -17,16 +22,15 @@ function HomePage() {
             {/* Navbar is used through ScrollHandler to change its appearance through useEffect  */}
 
         {/* HERO */}
-            <div className="hero-carousel">
-                <div className='hero-head'>
-                    <h1><span className='next-thing'>Next Thing</span><br></br>
+            <Hero
+                heading={<h1><span className='next-thing'>Next Thing</span><br></br>
                     
                     <span style={{fontSize: '20px'}}>Technology made simple</span>
                     </h1>
-                    {/* <img src={heroLogo} width={500} ></img> */}
-                </div>
-                <img className='bg-img' src={hero} alt='hero-background'></img>
-            </div>
+                    /* <img src={heroLogo} width={500} ></img> */
+                }
+                bg={heroBanner}
+            />
 
         {/* HEADING AFTER HERO */}
         <div className='head-after-hero'>
@@ -89,7 +93,7 @@ function HomePage() {
         </div>
 
         {/* SERVICES */}
-        <div className='home-servicos'>
+        <div className='home-servicos' id='home-servicos'>
             <h2>Serviços</h2>
             <div className='servicos-grid'>
                 <div className='servicos-item'>
@@ -180,53 +184,7 @@ function HomePage() {
 
         {/* FOOTER */}
 
-        <footer className='foot'>
-            <div className='contacts'>
-                <div className='contact-info'>
-                    <h1>Contacte-nos Aqui:</h1>
-                    <div className='email-div'>
-                        <h3>Email:</h3>
-                        <p>Info@Nextthing.Co.Mz</p>
-                    </div>
-                    <div className='tel-div'>
-                        <h3>Telefone:</h3>
-                        <p>+258 82 832 0920</p>
-                    </div>
-                    <div className='address-div'>
-                        <h3>Endereço:</h3>
-                        <p>Av 24 De Julho, 2464, Polana, Maputo, Moçambique</p>
-                    </div>
-                    <div className='hours-div'>
-                        <h3>Horas de Abertura:</h3>
-                        <p>Segunda A Sexta -
-                            <b> 08:00 - 19:00</b>
-                        </p>
-                        <p>
-                            Sabado -
-                            <b> 09:00 - 12:00</b></p>
-                    </div>
-                    <div className='socials-div'>
-                        <h3>As Nossas Redes:</h3>
-                        <div className='socials'>
-                            <a className='fb-icon' href=''>
-                                <i class="socials-icon devicon-facebook-plain" ></i>
-                            </a>
-                            <a className='li-icon' href=''>
-                                <i class="socials-icon devicon-linkedin-plain"></i> 
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className='contact-form'>
-                    <h1>Ou Mande-nos uma mensagem:</h1>
-                    <ContactForm />
-                </div>
-                
-            </div>
-            <div className='copyright'>
-                © Next Thing Consulting - 2024
-            </div>
-        </footer>
+        <Footer />
 
 
         </>

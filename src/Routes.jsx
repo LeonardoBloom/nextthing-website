@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import BlogPage from './pages/BlogPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import ScrollToTopHandler from './handlers/ScrollToTopHandler';
 
 
 
@@ -10,7 +11,7 @@ export const PageRoutes = () => {
 
     return (
         <Router>
-            
+            <ScrollToTopHandler />
             <Routes>
                 {/* PRIMARY PAGES */}
                 <Route exact path="/nextthing-website/" element={<Navigate to="/nextthing-website/Home" replace/>} />

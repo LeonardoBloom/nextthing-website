@@ -1,0 +1,31 @@
+
+
+.about-hero {
+    height: 500px;
+    width: 100%;
+    
+    overflow: hidden;
+}
+
+.about-hero h1 {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 12rem;
+    
+    text-align: center;
+    color: white;
+    font-size: 50px ;
+    
+}
+
+.hero-img {
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(0.4);
+}
+
+.content {
+    height: 500px;
+    color: aliceblue;
+}
