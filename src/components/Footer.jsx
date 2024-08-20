@@ -32,10 +32,10 @@ const Footer = () => {
                     <div className='socials-div'>
                         <h3>As Nossas Redes:</h3>
                         <div className='socials'>
-                            <a className='fb-icon' href=''>
+                            <a className='fb-icon' href='https://www.facebook.com/NextThingConsulting/'>
                                 <i class="socials-icon devicon-facebook-plain" ></i>
                             </a>
-                            <a className='li-icon' href=''>
+                            <a className='li-icon' href='https://www.linkedin.com/company/next-thing/'>
                                 <i class="socials-icon devicon-linkedin-plain"></i> 
                             </a>
                         </div>
