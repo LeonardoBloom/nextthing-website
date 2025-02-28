@@ -20,3 +20,6 @@
     - Phone
     - Email
     - MessageBox
+
+
+    TODO: separate services page, and make it show up all services and show each component as selected.

@@ -1,0 +1,51 @@
+.service-hero {
+    height: 350px;
+    width: 100%;
+    
+    overflow: hidden;
+}
+
+.service-hero h1 {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 10rem;
+    
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 50px ;
+    
+}
+
+.hero-img {
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(0.4);
+}
+
+.service-content {
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.service-content {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.service-pic {
+    width: 400px;
+    height: 400px;
+}
+
+.service-pic img {
+    width: 400px;
+    height: 400px;
+}

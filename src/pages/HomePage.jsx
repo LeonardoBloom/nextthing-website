@@ -25,7 +25,7 @@ function HomePage() {
             <Hero
                 heading={<h1><span className='next-thing'>Next Thing</span><br></br>
                     
-                    <span style={{fontSize: '20px'}}>Technology made simple</span>
+                    <span style={{fontSize: '20px'}}>Technology Made Simple</span>
                     </h1>
                     /* <img src={heroLogo} width={500} ></img> */
                 }
