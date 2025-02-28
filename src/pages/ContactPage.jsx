@@ -14,9 +14,7 @@ function ContactPage() {
                 <h1>Contacte-nos</h1>
                 <img className="hero-img" src={contactHero} alt="Contact Hero"></img>
             </div>
-            <div className='content'>
-                
-            </div>
+            
 
             <Footer />
             

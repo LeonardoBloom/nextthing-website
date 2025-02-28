@@ -1,4 +1,5 @@
 import ScrollHandler from "../handlers/ScrollHandler";
+import logo1 from '../img/logo1.png';
 
 import React from 'react'
 

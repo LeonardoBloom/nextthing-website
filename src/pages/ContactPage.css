@@ -1,15 +1,19 @@
 .contact-hero {
-    height: 500px;
+    height: 300px;
     width: 100%;
     
     overflow: hidden;
+}
+
+body {
+    height: 100vh;
 }
 
 .contact-hero h1 {
     position: absolute;
     width: 100%;
     z-index: 10;
-    top: 12rem;
+    top: 8rem;
     
     text-align: center;
     color: white;

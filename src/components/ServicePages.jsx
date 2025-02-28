@@ -15,7 +15,10 @@ const ServicePages = (prop) => {
             <img className="hero-img" height={300} src={servicesHero} alt="Services Hero"></img>
         </div>
         {prop.content}
-        <Footer />
+        {/* <Footer /> */}
+        <div className='copyright'>
+                © Next Thing Consulting - 2024
+            </div>
     
     </>
   )

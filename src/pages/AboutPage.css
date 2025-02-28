@@ -1,7 +1,7 @@
 
 
 .about-hero {
-    height: 500px;
+    height: 300px;
     width: 100%;
     
     overflow: hidden;
@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     z-index: 10;
-    top: 12rem;
+    top: 7rem;
     
     text-align: center;
     color: white;
@@ -26,6 +26,9 @@
 }
 
 .content {
-    height: 500px;
-    color: aliceblue;
+    height: 100%;
+    margin-bottom: 20px;
+    width: 55%;
+    margin: 45px auto;
+    color: black !important;
 }

@@ -1,6 +1,6 @@
 import './HomePage.css';
 import NavBar from '../components/NavBar'; // instead imported through scrollHandler
-import heroBanner from '../img/hero.webp';
+import heroBanner from '../img/n-back.png';
 import ContactForm from '../components/ContactForm';
 import ScrollHandler from '../handlers/ScrollHandler';
 import hook_img from '../img/hook_img.png';
@@ -23,11 +23,8 @@ function HomePage() {
 
         {/* HERO */}
             <Hero
-                heading={<h1><span className='next-thing'>Next Thing</span><br></br>
-                    
-                    <span style={{fontSize: '20px'}}>Technology Made Simple</span>
-                    </h1>
-                    /* <img src={heroLogo} width={500} ></img> */
+                heading={
+                    <img src={heroLogo} width={500} ></img>
                 }
                 bg={heroBanner}
             />
@@ -35,7 +32,7 @@ function HomePage() {
         {/* HEADING AFTER HERO */}
         <div className='head-after-hero'>
             <h2>A <span className='next-thing'>Next Thing</span> é constituida por profissionais que tem uma grande experiência em Business Intelligence e Integração de Dados</h2>
-
+            
         </div>
 
         {/* HOOK */}
@@ -184,7 +181,11 @@ function HomePage() {
 
         {/* FOOTER */}
 
-        <Footer />
+        {/* <Footer /> */}
+
+        <div className='copyright'>
+                © Next Thing Consulting - 2024
+        </div>
 
 
         </>

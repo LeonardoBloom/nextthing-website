@@ -31,7 +31,7 @@ const NavBar = ({isScrolled}) => {
                             <li className="nav-link-item"><Link to='/nextthing/services/project-management'>Gestão de Projectos</Link></li>
                         </ul>
                     </li>
-                    <li className='nav-buttons'><Link to="/nextthing/Blog" className={`${navButtonScroll}`} >Blog</Link></li>
+                    {/* <li className='nav-buttons'><Link to="/nextthing/Blog" className={`${navButtonScroll}`} >Blog</Link></li> */}
                     
                     <li className='nav-buttons'><Link to="/nextthing/Contact" className={`${navButtonScroll}`} href="#">Contacto</Link></li>
                 </ul>
