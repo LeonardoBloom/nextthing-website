@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/nextthing-website/static/css/main.5fd72aaf.css",
-    "main.js": "/nextthing-website/static/js/main.f8236b5e.js",
-    "static/js/453.c0fe18b6.chunk.js": "/nextthing-website/static/js/453.c0fe18b6.chunk.js",
-    "static/media/contactHero.jpg": "/nextthing-website/static/media/contactHero.6d78107c28973e2331fc.jpg",
-    "static/media/blogHero.jpg": "/nextthing-website/static/media/blogHero.7b1b40be0bfa38fa6d31.jpg",
-    "static/media/hook_img.png": "/nextthing-website/static/media/hook_img.484427bd02e7bab02ca9.png",
-    "static/media/aboutHero.jpg": "/nextthing-website/static/media/aboutHero.53229c4501081612d883.jpg",
-    "static/media/logo1.png": "/nextthing-website/static/media/logo1.c8ceb5fd03392691ac47.png",
-    "static/media/hero.webp": "/nextthing-website/static/media/hero.41e43e3b3be94ca57faa.webp",
-    "static/media/logo.svg": "/nextthing-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/nextthing-website/index.html",
-    "main.5fd72aaf.css.map": "/nextthing-website/static/css/main.5fd72aaf.css.map",
-    "main.f8236b5e.js.map": "/nextthing-website/static/js/main.f8236b5e.js.map",
-    "453.c0fe18b6.chunk.js.map": "/nextthing-website/static/js/453.c0fe18b6.chunk.js.map"
+    "main.css": "/nextthing/static/css/main.8a208cbc.css",
+    "main.js": "/nextthing/static/js/main.e034942f.js",
+    "static/js/453.c0fe18b6.chunk.js": "/nextthing/static/js/453.c0fe18b6.chunk.js",
+    "static/media/services-hero.jpg": "/nextthing/static/media/services-hero.61bc7341d5a3e3faaefc.jpg",
+    "static/media/contactHero.jpg": "/nextthing/static/media/contactHero.6d78107c28973e2331fc.jpg",
+    "static/media/blogHero.jpg": "/nextthing/static/media/blogHero.7b1b40be0bfa38fa6d31.jpg",
+    "static/media/hook_img.png": "/nextthing/static/media/hook_img.484427bd02e7bab02ca9.png",
+    "static/media/govt.png": "/nextthing/static/media/govt.7aff0aa9ef22b57641bf.png",
+    "static/media/aboutHero.jpg": "/nextthing/static/media/aboutHero.53229c4501081612d883.jpg",
+    "static/media/intelligent-automation.png": "/nextthing/static/media/intelligent-automation.e5b112766936eb87f685.png",
+    "static/media/cyberSec.png": "/nextthing/static/media/cyberSec.f80ad76efbc5058498dd.png",
+    "static/media/business-intelligence.png": "/nextthing/static/media/business-intelligence.f8c0911df63b2ff4c943.png",
+    "static/media/ContNeg.png": "/nextthing/static/media/ContNeg.21d6b21fa0492c020778.png",
+    "static/media/app-development.png": "/nextthing/static/media/app-development.aee918609b1f56419c1d.png",
+    "static/media/GesPro.png": "/nextthing/static/media/GesPro.88647aae9d1864b10790.png",
+    "static/media/GesT.png": "/nextthing/static/media/GesT.1b883c2384d4a6a47d16.png",
+    "static/media/logo1.png": "/nextthing/static/media/logo1.c8ceb5fd03392691ac47.png",
+    "static/media/n-back.png": "/nextthing/static/media/n-back.c721a2980c30f329bd31.png",
+    "static/media/logo.svg": "/nextthing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nextthing/index.html",
+    "main.8a208cbc.css.map": "/nextthing/static/css/main.8a208cbc.css.map",
+    "main.e034942f.js.map": "/nextthing/static/js/main.e034942f.js.map",
+    "453.c0fe18b6.chunk.js.map": "/nextthing/static/js/453.c0fe18b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fd72aaf.css",
-    "static/js/main.f8236b5e.js"
+    "static/css/main.8a208cbc.css",
+    "static/js/main.e034942f.js"
   ]
 }
