@@ -22,29 +22,29 @@ export const PageRoutes = () => {
             <ScrollToTopHandler />
             <Routes>
                 {/* PRIMARY PAGES */}
-                <Route exact path="/nextthing/" element={<Navigate to="/nextthing/Home" replace/>} />
-                <Route path="/nextthing/Home" element={<HomePage />} />
-                <Route path='/nextthing/Blog' element={<BlogPage />} />
-                <Route path='/nextthing/About' element={<AboutPage />} />
-                <Route path='/nextthing/Contact' element={<ContactPage />} />
+                <Route exact path="/nextthing-website/" element={<Navigate to="/nextthing/Home" replace/>} />
+                <Route path="/nextthing-website/Home" element={<HomePage />} />
+                <Route path='/nextthing-website/Blog' element={<BlogPage />} />
+                <Route path='/nextthing-website/About' element={<AboutPage />} />
+                <Route path='/nextthing-website/Contact' element={<ContactPage />} />
 
                 {/* SERVICES PAGES */}
                 {/* Business Intelligence */}
-                <Route path='/nextthing/services/business-intelligence' element={<BusIntel />} />
+                <Route path='/nextthing-website/services/business-intelligence' element={<BusIntel />} />
                 {/* Desenvolvimento de Aplicacoes */}
-                <Route path='/nextthing/services/app-development' element={<DevApp />} />
+                <Route path='/nextthing-website/services/app-development' element={<DevApp />} />
                 {/* Automacao Inteligente */}
-                <Route path='/nextthing/services/intelligent-automation' element={<AutoIntel />} />
+                <Route path='/nextthing-website/services/intelligent-automation' element={<AutoIntel />} />
                 {/* Cyber Security */}
-                <Route path='/nextthing/services/cybersecurity' element={<CyberSec />} />
+                <Route path='/nextthing-website/services/cybersecurity' element={<CyberSec />} />
                 {/* Governacao de TI */}
-                <Route path='/nextthing/services/it-gov' element={<GovT />} />
+                <Route path='/nextthing-website/services/it-gov' element={<GovT />} />
                 {/* Gestao de TICs */}
-                <Route path='/nextthing/services/tic-management' element={<GesT />} />
+                <Route path='/nextthing-website/services/tic-management' element={<GesT />} />
                 {/* Continuidade de Negocios */}
-                <Route path='/nextthing/services/project-continuity' element={<ContNeg />} />
+                <Route path='/nextthing-website/services/project-continuity' element={<ContNeg />} />
                 {/* Business Intelligence */}
-                <Route path='/nextthing/services/project-management' element={<GesPro />} />
+                <Route path='/nextthing-website/services/project-management' element={<GesPro />} />
             </Routes>
         </Router>
     )
