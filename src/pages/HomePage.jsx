@@ -101,7 +101,7 @@ function HomePage() {
                     para a organização é, com certeza, um dos grandes desafios destes novos tempos,
                     permitindo que cada um tome decisões confiáveis, com análises profundas, na hora
                     certa.</p>
-                    <span><Link to="/nextthing/services/business-intelligence">Saber Mais +</Link></span>
+                    <span><Link to="/nextthing-website/services/business-intelligence">Saber Mais +</Link></span>
                 </div>
                 <div className='servicos-item'>
                     {/* insert FONTAWESOME ICON here */}
@@ -112,7 +112,7 @@ function HomePage() {
                     Focamo-nos em aplicações empresariais, em diversas indústrias, usando tecnologias
                     líder em desenvolvimento. Usamos a metodologia Agile para que os projetos tenham
                     mais sucesso. </p>
-                    <span><Link to='/nextthing/services/app-development'>Saber Mais +</Link></span>
+                    <span><Link to='/nextthing-website/services/app-development'>Saber Mais +</Link></span>
                 </div>
                 <div className='servicos-item'>
                     {/* insert FONTAWESOME ICON here */}
@@ -121,7 +121,7 @@ function HomePage() {
                     <p>A automação inteligente (AI) é um dos principais impulsionadores da transformação
                     digital das organizações modernas. Ela permite a equipa se concentrar-se em trabalhos que acrescentam valor adicional a organização, colocando de lado tarefas
                     manuais e repetitivas. </p>
-                    <span><Link to='/nextthing/services/intelligent-automation'>Saber Mais +</Link></span>
+                    <span><Link to='/nextthing-website/services/intelligent-automation'>Saber Mais +</Link></span>
                 </div>
                 <div className='servicos-item'>
                     {/* insert FONTAWESOME ICON here */}
@@ -130,7 +130,7 @@ function HomePage() {
                     <p>A Next-Thing guarda os seus dados mais sensíveis, libertando a sua equipa de TI para
                     se concentrar em acompanhar o ritmo de inovação e concorrência na economia digital. Desenhamos a nossa abordagem de cibersegurança para nos alinharmos com os
                     seus objetivos de negócio, não para os impedir.</p>
-                    <span><Link to='/nextthing/services/cybersecurity'>Saber Mais +</Link></span>
+                    <span><Link to='/nextthing-website/services/cybersecurity'>Saber Mais +</Link></span>
                 </div>
                 <div className='servicos-item'>
                     {/* insert FONTAWESOME ICON here */}
@@ -142,7 +142,7 @@ function HomePage() {
                     é composto pela definição de processos críticos que devem
                     ser priorizados e implantados de acordo com a estratégia de
                     negócio.</p>
-                    <span><Link to='/nextthing/services/it-gov'>Saber Mais +</Link></span>
+                    <span><Link to='/nextthing-website/services/it-gov'>Saber Mais +</Link></span>
                 </div>
                 <div className='servicos-item'>
                     {/* insert FONTAWESOME ICON here */}
@@ -153,7 +153,7 @@ function HomePage() {
                     confiáveis, consistentes e eficientes. Entretanto muitas PMEs
                     não têm tempo, talento ou dinheiro para manter as tarefas de
                     TI internamente.</p>
-                    <span><Link to='/nextthing/services/tic-management'>Saber Mais +</Link></span>
+                    <span><Link to='/nextthing-website/services/tic-management'>Saber Mais +</Link></span>
                 </div>
                 <div className='servicos-item'>
                     {/* insert FONTAWESOME ICON here */}
@@ -165,7 +165,7 @@ function HomePage() {
                     mundo cada vez mais interconectado, é imperativo repensar o
                     planeamento de contingência dos serviços de tecnologias de
                     informação e comunicação.</p>
-                    <span><Link to='/nextthing/services/project-continuity'>Saber Mais +</Link></span>
+                    <span><Link to='/nextthing-website/services/project-continuity'>Saber Mais +</Link></span>
                 </div>
                 <div className='servicos-item'>
                     {/* insert FONTAWESOME ICON here */}
@@ -175,7 +175,7 @@ function HomePage() {
                     suas necessidades e podem ser facilmente executadas para identificar, tratar e mitigar os riscos
                     relacionados com a gestão, execução e controle
                     de programas e projetos complexos.</p>
-                    <span><Link to='/nextthing/services/project-management'>Saber Mais +</Link></span>
+                    <span><Link to='/nextthing-website/services/project-management'>Saber Mais +</Link></span>
                 </div>
             </div>
         </div>
