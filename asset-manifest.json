@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nextthing-website/static/css/main.7705ced4.css",
-    "main.js": "/nextthing-website/static/js/main.e6d9af82.js",
+    "main.css": "/nextthing-website/static/css/main.c2db7e87.css",
+    "main.js": "/nextthing-website/static/js/main.602cc1be.js",
     "static/js/453.c0fe18b6.chunk.js": "/nextthing-website/static/js/453.c0fe18b6.chunk.js",
     "static/media/services-hero.jpg": "/nextthing-website/static/media/services-hero.61bc7341d5a3e3faaefc.jpg",
     "static/media/contactHero.jpg": "/nextthing-website/static/media/contactHero.6d78107c28973e2331fc.jpg",
@@ -22,12 +22,12 @@
     "static/media/n-back.png": "/nextthing-website/static/media/n-back.c721a2980c30f329bd31.png",
     "static/media/logo.svg": "/nextthing-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nextthing-website/index.html",
-    "main.7705ced4.css.map": "/nextthing-website/static/css/main.7705ced4.css.map",
-    "main.e6d9af82.js.map": "/nextthing-website/static/js/main.e6d9af82.js.map",
+    "main.c2db7e87.css.map": "/nextthing-website/static/css/main.c2db7e87.css.map",
+    "main.602cc1be.js.map": "/nextthing-website/static/js/main.602cc1be.js.map",
     "453.c0fe18b6.chunk.js.map": "/nextthing-website/static/js/453.c0fe18b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7705ced4.css",
-    "static/js/main.e6d9af82.js"
+    "static/css/main.c2db7e87.css",
+    "static/js/main.602cc1be.js"
   ]
 }
