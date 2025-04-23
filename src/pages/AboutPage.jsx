@@ -4,6 +4,8 @@ import ScrollHandler from "../handlers/ScrollHandler";
 import aboutHero from "../img/aboutHero.jpg";
 import Footer from '../components/Footer';
 
+import aboutImg from '../img/about.png';
+
 
 
 function AboutPage() {
@@ -20,8 +22,8 @@ function AboutPage() {
             </div>
             <div className='content'>
 
-                <div className='service-info'>
-                    
+                <div className='about-info'>
+                    <div className='about-text'>
 
                     <p>Na Next-Thing construímos a nossa reputação sobre paixão e trabalho árduo. Fornecemos
 uma gama completa de serviços de tecnologias de informação e comunicação (TIC), quer
@@ -74,15 +76,22 @@ A nossa intervenção passa por identificar as suas necessidades, compreender o 
 o sector de mercado em que operam. Estamos a par das tendências tecnológicas e compartilhamos
 com nossos clientes informações sobre o impacto que estas possam ter nos nossos
 clientes.</p>
+                    </div>
+
+                    <div className='about-img'>
+                        <img src={aboutImg} />
+                    </div>
+                    
+
 
                 </div>
+            {/* <Footer /> */}
+        <div className='about-copyright'>
+                © Next Thing Consulting - 2024
+            </div>
                 
             </div>
 
-            {/* <Footer /> */}
-        <div className='copyright'>
-                © Next Thing Consulting - 2024
-            </div>
         </>
 
     )

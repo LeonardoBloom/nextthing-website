@@ -9,10 +9,10 @@
     position: absolute;
     width: 100%;
     z-index: 10;
-    top: 10rem;
+    top: 6rem;
     
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: white;
     font-size: 50px ;
     
@@ -25,27 +25,35 @@
 }
 
 .service-content {
-    border: 2px solid rgb(230, 230, 230);
+    /* border: 2px solid rgb(230, 230, 230); */
     border-radius: 20px;
     padding: 40px;
 }
 
 .service-content {
     margin: 0 auto;
+    /* height: 500px; */
     width: 80%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     text-align: justify;
     margin-bottom: 50px;
+    gap: 5rem;
+}
+
+.service-info {
+    width: 50%;
+    padding: 20px;
+    margin-left: 20px;
 }
 
 .service-pic {
-    width: 400px;
-    height: 400px;
+    /* width: 400px; */
+    /* height: auto; */
 }
 
 .service-pic img {
     width: 400px;
-    height: 400px;
+    height: auto;
 }

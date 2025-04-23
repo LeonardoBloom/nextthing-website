@@ -8,12 +8,14 @@ const NavBar = ({isScrolled}) => {
     const navScroll = isScrolled ? 'nav-scroll' : '';
     const navButtonScroll = isScrolled ? 'nav-button-scroll' : '';
 
+    
+
     return (
         <>
         <div className={`navbar ${navScroll}`}>
 
             <div className="nav-logo">
-                <Link to="/nextthing-website/Home"><img src={logo1} width="170"/></Link>
+                <Link to="/nextthing-website/Home"><img src={logo1} width="300"/></Link>
             </div>
 
             <div className='navbar-buttons'>

@@ -14,20 +14,18 @@ const Footer = () => {
                     </div>
                     <div className='tel-div'>
                         <h3>Telefone:</h3>
-                        <p>+258 82 832 0920</p>
+                        <p>+258 84 324 6880</p>
                     </div>
                     <div className='address-div'>
                         <h3>Endereço:</h3>
-                        <p>Av 24 De Julho, 2464, Polana, Maputo, Moçambique</p>
+                        <p>Rua Joe Slovo Nº 22, Prédio Saratoga, 4º Andar, Porta Nº 3, Maputo, Moçambique</p>
                     </div>
                     <div className='hours-div'>
                         <h3>Horas de Abertura:</h3>
                         <p>Segunda A Sexta -
-                            <b> 08:00 - 19:00</b>
+                            <b> 08:00 - 16:00</b>
                         </p>
-                        <p>
-                            Sabado -
-                            <b> 09:00 - 12:00</b></p>
+                        
                     </div>
                     <div className='socials-div'>
                         <h3>As Nossas Redes:</h3>
