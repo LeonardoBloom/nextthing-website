@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='foot'>
             <div className='contacts'>
                 <div className='contact-info'>
-                    <h1>Contacte-nos Aqui:</h1>
+                    {/* <h1>Contacte-nos Aqui:</h1> */}
                     <div className='email-div'>
                         <h3>Email:</h3>
                         <p>Info@Nextthing.Co.Mz</p>
@@ -39,10 +39,10 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='contact-form'>
+                {/* <div className='contact-form'>
                     <h1>Ou Mande-nos uma mensagem:</h1>
                     <ContactForm />
-                </div>
+                </div> */}
                 
             </div>
             <div className='copyright'>

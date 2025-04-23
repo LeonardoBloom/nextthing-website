@@ -29,7 +29,10 @@ body {
     }
     
 .nav-logo a img {
-    margin: 7px auto;
+    margin: 10px auto;
+}
+.nav-logo {
+    margin: auto 0;
 }
 
 .nav-links {
