@@ -28,6 +28,7 @@ export const PageRoutes = () => {
                 <Route path='/nextthing-website/About' element={<AboutPage />} />
                 <Route path='/nextthing-website/Contact' element={<ContactPage />} />
 
+
                 {/* SERVICES PAGES */}
                 {/* Business Intelligence */}
                 <Route path='/nextthing-website/services/business-intelligence' element={<BusIntel />} />
