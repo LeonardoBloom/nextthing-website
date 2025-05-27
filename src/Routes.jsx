@@ -22,12 +22,12 @@ export const PageRoutes = () => {
             <ScrollToTopHandler />
             <Routes>
                 {/* PRIMARY PAGES */}
-                <Route path="/" element={<Navigate to="/nextthing-website/home" />} />
-                <Route path='/nextthing-website/' element={<Navigate to='/nextthing-website/Home' replace/>} />
-                <Route path='/nextthing-website/Home' element={<HomePage />} />
-                <Route path='/nextthing-website/Blog' element={<BlogPage />} />
-                <Route path='/nextthing-website/About' element={<AboutPage />} />
-                <Route path='/nextthing-website/Contact' element={<ContactPage />} />
+                <Route path="/" element={<Navigate to="/Home" />} />
+                {/* <Route path='/nextthing-website/' element={<Navigate to='/nextthing-website/Home' replace/>} /> */}
+                <Route path='/Home' element={<HomePage />} />
+                <Route path='/Blog' element={<BlogPage />} />
+                <Route path='/About' element={<AboutPage />} />
+                <Route path='/Contact' element={<ContactPage />} />
 
 
                 {/* SERVICES PAGES */}
