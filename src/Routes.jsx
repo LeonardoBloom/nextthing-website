@@ -23,7 +23,7 @@ export const PageRoutes = () => {
             <Routes>
                 {/* PRIMARY PAGES */}
                 <Route path="/" element={<Navigate to="/Home" />} />
-                {/* <Route path='/nextthing-website/' element={<Navigate to='/nextthing-website/Home' replace/>} /> */}
+                {/* <Route path='/' element={<Navigate to='/Home' replace/>} /> */}
                 <Route path='/Home' element={<HomePage />} />
                 <Route path='/Blog' element={<BlogPage />} />
                 <Route path='/About' element={<AboutPage />} />
@@ -32,21 +32,21 @@ export const PageRoutes = () => {
 
                 {/* SERVICES PAGES */}
                 {/* Business Intelligence */}
-                <Route path='/nextthing-website/services/business-intelligence' element={<BusIntel />} />
+                <Route path='/services/business-intelligence' element={<BusIntel />} />
                 {/* Desenvolvimento de Aplicacoes */}
-                <Route path='/nextthing-website/services/app-development' element={<DevApp />} />
+                <Route path='/services/app-development' element={<DevApp />} />
                 {/* Automacao Inteligente */}
-                <Route path='/nextthing-website/services/intelligent-automation' element={<AutoIntel />} />
+                <Route path='/services/intelligent-automation' element={<AutoIntel />} />
                 {/* Cyber Security */}
-                <Route path='/nextthing-website/services/cybersecurity' element={<CyberSec />} />
+                <Route path='/services/cybersecurity' element={<CyberSec />} />
                 {/* Governacao de TI */}
-                <Route path='/nextthing-website/services/it-gov' element={<GovT />} />
+                <Route path='/services/it-gov' element={<GovT />} />
                 {/* Gestao de TICs */}
-                <Route path='/nextthing-website/services/tic-management' element={<GesT />} />
+                <Route path='/services/tic-management' element={<GesT />} />
                 {/* Continuidade de Negocios */}
-                <Route path='/nextthing-website/services/project-continuity' element={<ContNeg />} />
+                <Route path='/services/project-continuity' element={<ContNeg />} />
                 {/* Business Intelligence */}
-                <Route path='/nextthing-website/services/project-management' element={<GesPro />} />
+                <Route path='/services/project-management' element={<GesPro />} />
             </Routes>
         </Router>
     )
